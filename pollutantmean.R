@@ -48,7 +48,7 @@ pollutantmean <- function(directory, pollutant, id = 1:332) {
     else {
         
         message("Error: pollutant must be a character vector of length 1 with value either 'nitrate' or 'sulfate'")
-        break
+        stop()
         
     }
     
